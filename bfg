@@ -1,0 +1,77 @@
+import java.util.*;
+public class classwork {
+
+	public static void main(String[] args) {
+		/*while loop(continue until you fulfill your duty)
+		 * only stop when false
+		 * loops are used for three things(printing,counting,accumulate)
+		 * need three things for the loop
+		 * -Start Point:1:while(2:condition){
+		 * 3:change}
+		 * -for loop
+		 * -do while loop
+		 * 
+		 */
+		    Scanner k= new Scanner(System.in);
+		    int num=0;
+			int n=0;
+			char letter='A';
+			int counter=0,total=0,l=0,largest=0;
+			double average=0.0;
+			System.out.println("Use an integer, use -999 to quit");
+			num=k.nextInt();
+			
+            largest=num;
+			while(num!=-999){
+				if(num>largest){
+					largest=num;
+				}
+				if (num%2==0){
+					System.out.println("it is even ");
+				}
+				else
+					System.out.println("It is odd ");
+				System.out.println("Use an another integer, "
+						+ "use -999 to quit");
+				num=k.nextInt();
+			}}
+			System.out.println("The largest is "+largest);
+			System.out.println("thank you");
+			System.out.println("=========================");
+			 l=5;
+			while(l>=5){
+				n=1;
+				while(n<=l){
+					System.out.println("*");
+					n++;
+				}
+			 System.out.println();
+			 l--;
+			}
+			n=1;
+			while(n<=100){
+			if(n%2==0){
+			   counter++;
+			   total+=n;
+			  
+			}
+			n++;
+			}
+			average=(double)total/counter;
+			System.out.println("there are this many evens"+counter+"even numbers");
+			System.out.println("their sum is"+total );
+			System.out.println("average is"+average);
+			n=10;//initial value
+			while(n>=1){//condition
+				System.out.print(n+",");
+				n--;//change
+			}
+			letter='A';
+			while(letter<='Z'){
+				System.out.print(letter+",");
+				counter++;
+				letter++;
+				System.out.println(counter);
+			}
+	}
+	}
